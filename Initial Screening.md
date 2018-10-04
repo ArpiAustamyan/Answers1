@@ -11,16 +11,16 @@ The first node of list is head.	The last node has a reference to null.
 The advantage of linked list over array is, that linked list allows insertion and removal of nodes at any point in the list. One of disadvantages linked list is that they use more memory than arrays because of the storage used by their pointers. Linked list does not have any form of efficient indexing and for that reason is difficult to find element is list.
 
 4. ##### You work in an ice cream shop and step into the back for a few minutes. You return and see a large group of people waiting. How would you serve them? #####
-  I will give the ice-cream to those who have spent more time to for waiting.
+I will give the ice-cream to those who have spent more time to for waiting.First in first out.
   
 5. ##### How would you test a pen? #####
-	At first, I will write to test if a pen is writing and if it is I will test on which surfaces it can write and we can also test with what color it is written.
+At first, I will write to test if a pen is writing and if it is I will test on which surfaces it can write and we can also test with what color it is written.
 
 6. ##### As a test engineer in Amazon what would you test first (assuming authentication functionality is already covered)? #####
 I will test components of a project.  My work will include  writing tests,building testing infrastructure, collecting and reporting on testing metrics, participating in product design meetings etc. I need the skills like  strong coding, design and analytic thinking .
 
 7. ##### You have a list of numbers from one to one million and there is a missing number. How would you find the missing number? #####
-	At first, I will get the sum of list members  and after subtracting from the sum of one to one million numbers
+At first, I will get the sum of list members  and after subtracting from the sum of one to one million numbers
   ``` c++
   int  MissingNumber (int* arr, int n)
 {
@@ -157,6 +157,7 @@ How much power limit does it operate ?
 16. ##### You have two lightbulbs at a 100-story building. You want to find the lowest floor at which the bulbs will break when dropped. How would you find the floor using the least number of drops? #####
 First lightbulb we  drop from 16-th floor .If it breaks ,we will search the floor between 1 and 16 .So in the worst case we drop 16 times . If we drop the lightbulb from 16-rd floor and it does not break we drop it from 31-stfloor(16+15).If it breaks ,we will search the floor between 17 and 31.Since we have  already dropped the bulb from 16rd floor ,the count of the throws in the worst case is equal to 16 (15+1).If it does not break we will drop it from 45-th(16+15+14)floor. If it breaks ,we will search the floor between 31 and 45 .Since we have  already dropped the bulb from 16th and 31-st
  floors ,the count of the throws in the worst case is equal to 16 (14+1+1).Then we continue this process dropping  it from 58-th,70-th,81-st,91-st,100 floors .In any Case the maximum count of throwing is equal to 16.
+ 
 17. ##### If you have a square room with no roof, and you had four pillars you had to plant on the walls so that each pillar touched two walls, how would you do it? #####
 I denote with y*sqrt(2) the side of roof square.
 In the roof square I   put  a square which is consisted of pillars (the length of the sides of this square are equal to y).The peaks of this square are the midpoints of the roof square sides .So we have a square on the walls of room ,which is embraced in the roof square and its each side touches two walls.
@@ -181,5 +182,6 @@ Case B
 
 4) If the weight of the  first(second) part is more than the third parts weight ,X is in the first(second) part and the weight of X is more (less) than others weight .Then I will weight any 2 balls of the first part .X is the ball which weight more (less)than the weight of others.
 So we can solve this problem with minimum 3 weightings.
+
 19. ##### How would you solve the N Queens problem? [Bonus] #####
 20. ##### How would you find the longest palindrome in a string? [Bonus] #####
