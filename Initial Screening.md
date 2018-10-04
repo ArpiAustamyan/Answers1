@@ -1,6 +1,7 @@
 ## Questions - Answers ##
 1. ##### What teams at Vineti are you interested in and why? (Dev or QA)#####
 I am interested in Software Development , because every day we solve new tasks ,we acquire new knowledges ,we are facing with various problems and  try to overcome them .Software developer  Technology is extremely fast moving ,so  I need to be able to learn new programming languages . I like also that it requires team work ,communication skills.
+
 2. ##### What is your favorite programming language and why? #####
 My favorite programming language is c++ .I started learning programming from c++ .It helps me to learn new programming languages ,because basic principles are the same in OOP programming languages.
 3. ##### What is a linked list? #####
