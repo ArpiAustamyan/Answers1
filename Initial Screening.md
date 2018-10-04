@@ -4,12 +4,15 @@ I am interested in Software Development , because every day we solve new tasks ,
 
 2. ##### What is your favorite programming language and why? #####
 My favorite programming language is c++ .I started learning programming from c++ .It helps me to learn new programming languages ,because basic principles are the same in OOP programming languages.
+
 3. ##### What is a linked list? #####
 Linked list is linear collection of elements (nodes). Each node consists of data and the reference to the next node of the list.
 The first node of list is head.	The last node has a reference to null.
 The advantage of linked list over array is, that linked list allows insertion and removal of nodes at any point in the list. One of disadvantages linked list is that they use more memory than arrays because of the storage used by their pointers. Linked list does not have any form of efficient indexing and for that reason is difficult to find element is list.
+
 4. ##### You work in an ice cream shop and step into the back for a few minutes. You return and see a large group of people waiting. How would you serve them? #####
   I will give the ice-cream to those who have spent more time to for waiting.
+  
 5. ##### How would you test a pen? #####
 	At first, I will write to test if a pen is writing and if it is I will test on which surfaces it can write and we can also test with what color it is written.
 
